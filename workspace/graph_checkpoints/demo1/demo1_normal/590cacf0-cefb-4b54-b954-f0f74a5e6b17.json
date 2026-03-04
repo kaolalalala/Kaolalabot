@@ -1,0 +1,75 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "590cacf0-cefb-4b54-b954-f0f74a5e6b17",
+  "node_name": "executor",
+  "timestamp": "2026-03-03T16:49:48.665005",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "3d975184",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "b7cdd5a9",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "3d975184"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "225a8012",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "b7cdd5a9"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 2,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:49:48.657341",
+        "end_time": "2026-03-03T16:49:48.657341",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:49:48.663463",
+        "end_time": "2026-03-03T16:49:48.665005",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:49:48.665005",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "b7cdd5a9"
+  },
+  "parent_checkpoint_id": "842ab1f8-bc25-47fa-ba33-e646d73c5082"
+}

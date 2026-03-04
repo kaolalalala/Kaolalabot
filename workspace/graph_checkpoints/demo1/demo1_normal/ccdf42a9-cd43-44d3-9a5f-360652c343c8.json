@@ -1,0 +1,66 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "ccdf42a9-cd43-44d3-9a5f-360652c343c8",
+  "node_name": "planner",
+  "timestamp": "2026-03-03T16:47:47.529068",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "c7dadecb",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "018f15c8",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "c7dadecb"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "f91ce0d0",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "018f15c8"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 1,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:47:47.527532",
+        "end_time": "2026-03-03T16:47:47.529068",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:47:47.529068",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "c7dadecb"
+  },
+  "parent_checkpoint_id": null
+}

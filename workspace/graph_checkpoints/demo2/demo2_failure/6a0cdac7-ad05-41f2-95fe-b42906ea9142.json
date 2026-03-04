@@ -1,0 +1,93 @@
+{
+  "task_id": "demo2_failure",
+  "checkpoint_id": "6a0cdac7-ad05-41f2-95fe-b42906ea9142",
+  "node_name": "diagnoser",
+  "timestamp": "2026-03-03T16:49:48.758307",
+  "full_state": {
+    "task_id": "demo2_failure",
+    "goal": "Process the user request with error handling",
+    "plan": [
+      {
+        "id": "c6cc8231",
+        "objective": "Analyze the user goal",
+        "expected_output": "Goal understanding",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "ca29ec07",
+        "objective": "Execute the task based on goal",
+        "expected_output": "Task result",
+        "dependencies": [
+          "c6cc8231"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "69fdc406",
+        "objective": "Verify the result meets the goal",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "ca29ec07"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 4,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:49:48.739113",
+        "end_time": "2026-03-03T16:49:48.740384",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:49:48.746229",
+        "end_time": "2026-03-03T16:49:48.746229",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 2,
+        "start_time": "2026-03-03T16:49:48.753630",
+        "end_time": "2026-03-03T16:49:48.753630",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask ca29ec07"
+      },
+      {
+        "node": "diagnoser",
+        "step": 3,
+        "start_time": "2026-03-03T16:49:48.758307",
+        "end_time": "2026-03-03T16:49:48.758307",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:49:48.758307",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "ca29ec07"
+  },
+  "parent_checkpoint_id": "d981ba27-915e-4871-a135-1cd2ff847257"
+}

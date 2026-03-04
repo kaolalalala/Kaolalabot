@@ -1,0 +1,102 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "00492fc9-6b78-474b-ac2c-123f2a16bc63",
+  "node_name": "recovery",
+  "timestamp": "2026-03-03T16:49:13.686025",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "6759e556",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "d858e5d9",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "6759e556"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "dfe405f5",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "d858e5d9"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 5,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:49:13.657200",
+        "end_time": "2026-03-03T16:49:13.658742",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:49:13.664878",
+        "end_time": "2026-03-03T16:49:13.664878",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 2,
+        "start_time": "2026-03-03T16:49:13.672055",
+        "end_time": "2026-03-03T16:49:13.672055",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask d858e5d9"
+      },
+      {
+        "node": "diagnoser",
+        "step": 3,
+        "start_time": "2026-03-03T16:49:13.679743",
+        "end_time": "2026-03-03T16:49:13.679743",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "recovery",
+        "step": 4,
+        "start_time": "2026-03-03T16:49:13.686025",
+        "end_time": "2026-03-03T16:49:13.686025",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:49:13.686025",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "d858e5d9"
+  },
+  "parent_checkpoint_id": "2fdc5a01-c759-4292-9b1b-e6ab298370f5"
+}

@@ -1,0 +1,194 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "3d64b39d-569a-40f5-9917-5e4873786be2",
+  "node_name": "diagnoser",
+  "timestamp": "2026-03-03T16:49:13.949700",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "0514f5c2",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "a6e3aaf1",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "0514f5c2"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "05fb4d44",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "a6e3aaf1"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 15,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:49:13.657200",
+        "end_time": "2026-03-03T16:49:13.658742",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:49:13.664878",
+        "end_time": "2026-03-03T16:49:13.664878",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 2,
+        "start_time": "2026-03-03T16:49:13.672055",
+        "end_time": "2026-03-03T16:49:13.672055",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask d858e5d9"
+      },
+      {
+        "node": "diagnoser",
+        "step": 3,
+        "start_time": "2026-03-03T16:49:13.679743",
+        "end_time": "2026-03-03T16:49:13.679743",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "recovery",
+        "step": 4,
+        "start_time": "2026-03-03T16:49:13.686025",
+        "end_time": "2026-03-03T16:49:13.686025",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 5,
+        "start_time": "2026-03-03T16:49:13.692580",
+        "end_time": "2026-03-03T16:49:13.692580",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 6,
+        "start_time": "2026-03-03T16:49:13.700294",
+        "end_time": "2026-03-03T16:49:13.700294",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask dfe405f5"
+      },
+      {
+        "node": "diagnoser",
+        "step": 7,
+        "start_time": "2026-03-03T16:49:13.706430",
+        "end_time": "2026-03-03T16:49:13.706430",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "recovery",
+        "step": 8,
+        "start_time": "2026-03-03T16:49:13.712639",
+        "end_time": "2026-03-03T16:49:13.712639",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 9,
+        "start_time": "2026-03-03T16:49:13.719873",
+        "end_time": "2026-03-03T16:49:13.719873",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "finalizer",
+        "step": 10,
+        "start_time": "2026-03-03T16:49:13.726076",
+        "end_time": "2026-03-03T16:49:13.726076",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "planner",
+        "step": 11,
+        "start_time": "2026-03-03T16:49:13.929306",
+        "end_time": "2026-03-03T16:49:13.930860",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 12,
+        "start_time": "2026-03-03T16:49:13.937067",
+        "end_time": "2026-03-03T16:49:13.938611",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 13,
+        "start_time": "2026-03-03T16:49:13.943086",
+        "end_time": "2026-03-03T16:49:13.944628",
+        "elapsed_ms": 1,
+        "success": false,
+        "error": "No result to verify for subtask a6e3aaf1"
+      },
+      {
+        "node": "diagnoser",
+        "step": 14,
+        "start_time": "2026-03-03T16:49:13.949700",
+        "end_time": "2026-03-03T16:49:13.949700",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {
+      "final_summary": "Task completed successfully."
+    },
+    "errors": [],
+    "retry_count": 0,
+    "status": "finished",
+    "last_progress_at": "2026-03-03T16:49:13.949700",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "a6e3aaf1"
+  },
+  "parent_checkpoint_id": "c5fdd407-2c32-4a0e-9951-e9b7cdb4c679"
+}

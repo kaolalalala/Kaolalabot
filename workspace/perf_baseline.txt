@@ -1,0 +1,6 @@
+baseline.channel_manager_init_ms=0.56
+baseline.agent_init_ms=6.49
+baseline.help_roundtrip_ms=3.85
+baseline.mem_peak_kb=44.20
+baseline.channels=feishu,web
+baseline.help_len=84

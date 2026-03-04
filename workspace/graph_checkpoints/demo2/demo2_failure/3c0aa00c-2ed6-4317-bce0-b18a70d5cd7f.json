@@ -1,0 +1,66 @@
+{
+  "task_id": "demo2_failure",
+  "checkpoint_id": "3c0aa00c-2ed6-4317-bce0-b18a70d5cd7f",
+  "node_name": "planner",
+  "timestamp": "2026-03-03T16:46:27.999370",
+  "full_state": {
+    "task_id": "demo2_failure",
+    "goal": "Process the user request with error handling",
+    "plan": [
+      {
+        "id": "1bf9c69d",
+        "objective": "Analyze the user goal",
+        "expected_output": "Goal understanding",
+        "dependencies": [],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "043c79f3",
+        "objective": "Execute the task based on goal",
+        "expected_output": "Task result",
+        "dependencies": [
+          "1bf9c69d"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "f1a2650d",
+        "objective": "Verify the result meets the goal",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "043c79f3"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 1,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:46:27.998364",
+        "end_time": "2026-03-03T16:46:27.998364",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:46:27.998364",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "1bf9c69d"
+  },
+  "parent_checkpoint_id": null
+}

@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 测试
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.pytest/
+.tox/
+.nox/
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# 工作区数据
+workspace/sessions/
+workspace/memory/episodic/
+workspace/memory/semantic/
+workspace/memory/chroma/
+workspace/artifacts/
+workspace/system/task_logs.jsonl
+
+# 配置文件
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+config.local.json
+config.local.yaml
+*.local.json
+*.local.yaml
+
+# 日志
+*.log
+logs/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+
+# 文档构建
+docs/_build/
+docs/.doctrees/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 性能分析
+*.prof
+*.pstats
+
+# 覆盖率报告
+coverage.xml
+coverage.json

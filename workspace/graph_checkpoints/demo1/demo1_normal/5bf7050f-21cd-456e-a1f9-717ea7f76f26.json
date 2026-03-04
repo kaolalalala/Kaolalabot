@@ -1,0 +1,111 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "5bf7050f-21cd-456e-a1f9-717ea7f76f26",
+  "node_name": "executor",
+  "timestamp": "2026-03-03T16:49:48.690991",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "3d975184",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "b7cdd5a9",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "3d975184"
+        ],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "225a8012",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "b7cdd5a9"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 6,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:49:48.657341",
+        "end_time": "2026-03-03T16:49:48.657341",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:49:48.663463",
+        "end_time": "2026-03-03T16:49:48.665005",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 2,
+        "start_time": "2026-03-03T16:49:48.671268",
+        "end_time": "2026-03-03T16:49:48.671268",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask b7cdd5a9"
+      },
+      {
+        "node": "diagnoser",
+        "step": 3,
+        "start_time": "2026-03-03T16:49:48.678521",
+        "end_time": "2026-03-03T16:49:48.678521",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "recovery",
+        "step": 4,
+        "start_time": "2026-03-03T16:49:48.684705",
+        "end_time": "2026-03-03T16:49:48.684705",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 5,
+        "start_time": "2026-03-03T16:49:48.690991",
+        "end_time": "2026-03-03T16:49:48.690991",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:49:48.690991",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "225a8012"
+  },
+  "parent_checkpoint_id": "13f1ec2f-3e4c-4ad0-acbe-2748e1c1f850"
+}

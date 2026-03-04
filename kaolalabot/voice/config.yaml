@@ -1,0 +1,52 @@
+voice:
+  enabled: true
+  sample_rate: 16000
+  frame_duration_ms: 20
+  channels: 1
+  format: int16
+
+vad:
+  enabled: true
+  aggressiveness: 1
+  min_speech_duration_ms: 250
+  min_silence_duration_ms: 6000
+  speech_timeout_ms: 3000
+  energy_threshold: 400
+
+asr:
+  provider: whisper
+  model_size: tiny
+  language: auto
+  device: cpu
+  compute_type: int8
+  window_interval_ms: 500
+  final_silence_ms: 1000
+
+tts:
+  provider: edge
+  voice: zh-CN-XiaoxiaoNeural
+  rate: "+0%"
+  pitch: "+0Hz"
+  volume: "+0%"
+  chunk_interval_ms: 800
+  max_chars_per_chunk: 50
+  output_format: audio-24khz-48kbitrate-mono-mp3
+
+agent:
+  stream_tokens: true
+  timeout_seconds: 120
+  max_tokens: 4096
+  temperature: 0.7
+
+turn_manager:
+  enabled: true
+  barge_in_on_speech_start: true
+  interrupt_on_speech_start: true
+  clear_queue_on_barge_in: true
+
+session_fsm:
+  enabled: true
+  idle_timeout_seconds: 300
+  thinking_timeout_seconds: 60
+  speaking_timeout_seconds: 120
+  allow_parallel_execution: true

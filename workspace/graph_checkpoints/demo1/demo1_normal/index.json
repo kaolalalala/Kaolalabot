@@ -1,0 +1,499 @@
+[
+  {
+    "checkpoint_id": "85a2ef9c-8a6f-4595-9af9-0c56e75af0fe",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:46:27.875346",
+    "parent_checkpoint_id": null,
+    "file": "85a2ef9c-8a6f-4595-9af9-0c56e75af0fe.json"
+  },
+  {
+    "checkpoint_id": "0980210d-fe74-4a56-8883-2baae667d7e2",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:46:27.881041",
+    "parent_checkpoint_id": "85a2ef9c-8a6f-4595-9af9-0c56e75af0fe",
+    "file": "0980210d-fe74-4a56-8883-2baae667d7e2.json"
+  },
+  {
+    "checkpoint_id": "a65fe0ec-0b6b-4b2e-999c-db243b775637",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:46:27.885754",
+    "parent_checkpoint_id": "0980210d-fe74-4a56-8883-2baae667d7e2",
+    "file": "a65fe0ec-0b6b-4b2e-999c-db243b775637.json"
+  },
+  {
+    "checkpoint_id": "585992c0-b210-4087-b952-f1622445022e",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:46:27.892005",
+    "parent_checkpoint_id": "a65fe0ec-0b6b-4b2e-999c-db243b775637",
+    "file": "585992c0-b210-4087-b952-f1622445022e.json"
+  },
+  {
+    "checkpoint_id": "5fd0b55f-4d6f-4c7d-8799-79a7398cf969",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:46:27.898160",
+    "parent_checkpoint_id": "585992c0-b210-4087-b952-f1622445022e",
+    "file": "5fd0b55f-4d6f-4c7d-8799-79a7398cf969.json"
+  },
+  {
+    "checkpoint_id": "2f5f2586-8946-4214-95be-3e9afd998b9c",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:46:27.905933",
+    "parent_checkpoint_id": "5fd0b55f-4d6f-4c7d-8799-79a7398cf969",
+    "file": "2f5f2586-8946-4214-95be-3e9afd998b9c.json"
+  },
+  {
+    "checkpoint_id": "9e1105a1-cb17-404a-9913-a19f4607bec6",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:46:27.912134",
+    "parent_checkpoint_id": "2f5f2586-8946-4214-95be-3e9afd998b9c",
+    "file": "9e1105a1-cb17-404a-9913-a19f4607bec6.json"
+  },
+  {
+    "checkpoint_id": "cebd5b37-ead5-475b-a73e-cf9c9929b867",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:46:27.916870",
+    "parent_checkpoint_id": "9e1105a1-cb17-404a-9913-a19f4607bec6",
+    "file": "cebd5b37-ead5-475b-a73e-cf9c9929b867.json"
+  },
+  {
+    "checkpoint_id": "f00f8a15-2145-40c2-a9a7-a367b6b506f8",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:46:27.923109",
+    "parent_checkpoint_id": "cebd5b37-ead5-475b-a73e-cf9c9929b867",
+    "file": "f00f8a15-2145-40c2-a9a7-a367b6b506f8.json"
+  },
+  {
+    "checkpoint_id": "68fb7684-31b6-4442-a31e-f2e380de6170",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:46:27.929289",
+    "parent_checkpoint_id": "f00f8a15-2145-40c2-a9a7-a367b6b506f8",
+    "file": "68fb7684-31b6-4442-a31e-f2e380de6170.json"
+  },
+  {
+    "checkpoint_id": "06246e5f-a4d6-4214-889d-18ec02b138f7",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:46:27.935103",
+    "parent_checkpoint_id": "68fb7684-31b6-4442-a31e-f2e380de6170",
+    "file": "06246e5f-a4d6-4214-889d-18ec02b138f7.json"
+  },
+  {
+    "checkpoint_id": "c580b604-c246-4820-9efb-ecfc3ac43894",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:46:27.940800",
+    "parent_checkpoint_id": "06246e5f-a4d6-4214-889d-18ec02b138f7",
+    "file": "c580b604-c246-4820-9efb-ecfc3ac43894.json"
+  },
+  {
+    "checkpoint_id": "e329ff83-69f5-42d7-870b-5bd161b9f7fc",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:46:27.946506",
+    "parent_checkpoint_id": "c580b604-c246-4820-9efb-ecfc3ac43894",
+    "file": "e329ff83-69f5-42d7-870b-5bd161b9f7fc.json"
+  },
+  {
+    "checkpoint_id": "021b7259-f881-4ce0-83f8-a35b6857dd9b",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:46:27.952246",
+    "parent_checkpoint_id": "e329ff83-69f5-42d7-870b-5bd161b9f7fc",
+    "file": "021b7259-f881-4ce0-83f8-a35b6857dd9b.json"
+  },
+  {
+    "checkpoint_id": "e51aaf94-d360-46de-b314-214e842c9dce",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:46:27.959935",
+    "parent_checkpoint_id": "021b7259-f881-4ce0-83f8-a35b6857dd9b",
+    "file": "e51aaf94-d360-46de-b314-214e842c9dce.json"
+  },
+  {
+    "checkpoint_id": "556bb0cb-c0bd-4445-a759-50371780ae43",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:46:27.965554",
+    "parent_checkpoint_id": "e51aaf94-d360-46de-b314-214e842c9dce",
+    "file": "556bb0cb-c0bd-4445-a759-50371780ae43.json"
+  },
+  {
+    "checkpoint_id": "669d4976-55c1-4246-99cb-0cdddb5ff754",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:46:27.971721",
+    "parent_checkpoint_id": "556bb0cb-c0bd-4445-a759-50371780ae43",
+    "file": "669d4976-55c1-4246-99cb-0cdddb5ff754.json"
+  },
+  {
+    "checkpoint_id": "d3ca390f-30df-4cce-bce7-ea991a82e32c",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:46:27.978067",
+    "parent_checkpoint_id": "669d4976-55c1-4246-99cb-0cdddb5ff754",
+    "file": "d3ca390f-30df-4cce-bce7-ea991a82e32c.json"
+  },
+  {
+    "checkpoint_id": "e1665bc3-f040-45a8-8a9d-33d0305811a2",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:46:27.984920",
+    "parent_checkpoint_id": "d3ca390f-30df-4cce-bce7-ea991a82e32c",
+    "file": "e1665bc3-f040-45a8-8a9d-33d0305811a2.json"
+  },
+  {
+    "checkpoint_id": "6693e8b0-7e6c-491b-a09c-be151ec69014",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:46:27.990559",
+    "parent_checkpoint_id": "e1665bc3-f040-45a8-8a9d-33d0305811a2",
+    "file": "6693e8b0-7e6c-491b-a09c-be151ec69014.json"
+  },
+  {
+    "checkpoint_id": "ccdf42a9-cd43-44d3-9a5f-360652c343c8",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:47:47.529068",
+    "parent_checkpoint_id": null,
+    "file": "ccdf42a9-cd43-44d3-9a5f-360652c343c8.json"
+  },
+  {
+    "checkpoint_id": "4edbd2af-84b0-4461-850a-765b123512bb",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.536252",
+    "parent_checkpoint_id": "ccdf42a9-cd43-44d3-9a5f-360652c343c8",
+    "file": "4edbd2af-84b0-4461-850a-765b123512bb.json"
+  },
+  {
+    "checkpoint_id": "13318ea8-9195-4d8f-967c-52097d4c8753",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:47:47.541286",
+    "parent_checkpoint_id": "4edbd2af-84b0-4461-850a-765b123512bb",
+    "file": "13318ea8-9195-4d8f-967c-52097d4c8753.json"
+  },
+  {
+    "checkpoint_id": "96e76f14-b8f5-48f2-b1c0-92ab1521fbe6",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:47:47.547012",
+    "parent_checkpoint_id": "13318ea8-9195-4d8f-967c-52097d4c8753",
+    "file": "96e76f14-b8f5-48f2-b1c0-92ab1521fbe6.json"
+  },
+  {
+    "checkpoint_id": "a82f81bc-baff-4777-8562-b8c75a4c679f",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:47:47.554758",
+    "parent_checkpoint_id": "96e76f14-b8f5-48f2-b1c0-92ab1521fbe6",
+    "file": "a82f81bc-baff-4777-8562-b8c75a4c679f.json"
+  },
+  {
+    "checkpoint_id": "032c76c7-7e8a-47fa-ba15-bf533c894b2a",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.560925",
+    "parent_checkpoint_id": "a82f81bc-baff-4777-8562-b8c75a4c679f",
+    "file": "032c76c7-7e8a-47fa-ba15-bf533c894b2a.json"
+  },
+  {
+    "checkpoint_id": "1caaa2b7-a1db-481d-8625-666008b951a5",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:47:47.567147",
+    "parent_checkpoint_id": "032c76c7-7e8a-47fa-ba15-bf533c894b2a",
+    "file": "1caaa2b7-a1db-481d-8625-666008b951a5.json"
+  },
+  {
+    "checkpoint_id": "920dd6cc-f354-4a62-90a2-84b869c6cfae",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:47:47.574448",
+    "parent_checkpoint_id": "1caaa2b7-a1db-481d-8625-666008b951a5",
+    "file": "920dd6cc-f354-4a62-90a2-84b869c6cfae.json"
+  },
+  {
+    "checkpoint_id": "fe572daf-b1fe-461a-b9e1-1ebe561b3b58",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:47:47.580652",
+    "parent_checkpoint_id": "920dd6cc-f354-4a62-90a2-84b869c6cfae",
+    "file": "fe572daf-b1fe-461a-b9e1-1ebe561b3b58.json"
+  },
+  {
+    "checkpoint_id": "5be21908-6917-4009-bf0c-484c89449a5d",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.587416",
+    "parent_checkpoint_id": "fe572daf-b1fe-461a-b9e1-1ebe561b3b58",
+    "file": "5be21908-6917-4009-bf0c-484c89449a5d.json"
+  },
+  {
+    "checkpoint_id": "0ed8a9a2-cd56-425c-9c33-c09ef8064a68",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:47:47.746979",
+    "parent_checkpoint_id": null,
+    "file": "0ed8a9a2-cd56-425c-9c33-c09ef8064a68.json"
+  },
+  {
+    "checkpoint_id": "afc5b4da-5145-44d2-a100-4f44e5392532",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.753803",
+    "parent_checkpoint_id": "0ed8a9a2-cd56-425c-9c33-c09ef8064a68",
+    "file": "afc5b4da-5145-44d2-a100-4f44e5392532.json"
+  },
+  {
+    "checkpoint_id": "234fbf4d-0b45-40c0-a272-ed56ae46bd5b",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:47:47.759949",
+    "parent_checkpoint_id": "afc5b4da-5145-44d2-a100-4f44e5392532",
+    "file": "234fbf4d-0b45-40c0-a272-ed56ae46bd5b.json"
+  },
+  {
+    "checkpoint_id": "a6bd0445-50e5-4420-aa78-baa6bdcf4691",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:47:47.766017",
+    "parent_checkpoint_id": "234fbf4d-0b45-40c0-a272-ed56ae46bd5b",
+    "file": "a6bd0445-50e5-4420-aa78-baa6bdcf4691.json"
+  },
+  {
+    "checkpoint_id": "73c9fdfe-da26-41c4-91ae-5791e1227dcd",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:47:47.771881",
+    "parent_checkpoint_id": "a6bd0445-50e5-4420-aa78-baa6bdcf4691",
+    "file": "73c9fdfe-da26-41c4-91ae-5791e1227dcd.json"
+  },
+  {
+    "checkpoint_id": "69300d2a-e00e-4cfe-9a12-2c629747a114",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.777800",
+    "parent_checkpoint_id": "73c9fdfe-da26-41c4-91ae-5791e1227dcd",
+    "file": "69300d2a-e00e-4cfe-9a12-2c629747a114.json"
+  },
+  {
+    "checkpoint_id": "bc4131f8-b7b6-45fc-8fe0-2920033e7afb",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:47:47.785041",
+    "parent_checkpoint_id": "69300d2a-e00e-4cfe-9a12-2c629747a114",
+    "file": "bc4131f8-b7b6-45fc-8fe0-2920033e7afb.json"
+  },
+  {
+    "checkpoint_id": "0b4f12d3-0576-4045-a3c7-92031b7f6d7e",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:47:47.791289",
+    "parent_checkpoint_id": "bc4131f8-b7b6-45fc-8fe0-2920033e7afb",
+    "file": "0b4f12d3-0576-4045-a3c7-92031b7f6d7e.json"
+  },
+  {
+    "checkpoint_id": "be1f5047-f4bd-4836-8f98-1a5f24d36209",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:47:47.797486",
+    "parent_checkpoint_id": "0b4f12d3-0576-4045-a3c7-92031b7f6d7e",
+    "file": "be1f5047-f4bd-4836-8f98-1a5f24d36209.json"
+  },
+  {
+    "checkpoint_id": "c69e59c0-a4bc-4654-9c9e-05aaf6a8c8fd",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:47:47.804784",
+    "parent_checkpoint_id": "be1f5047-f4bd-4836-8f98-1a5f24d36209",
+    "file": "c69e59c0-a4bc-4654-9c9e-05aaf6a8c8fd.json"
+  },
+  {
+    "checkpoint_id": "16284d44-5110-4d68-9efe-699120c62125",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:49:13.658742",
+    "parent_checkpoint_id": null,
+    "file": "16284d44-5110-4d68-9efe-699120c62125.json"
+  },
+  {
+    "checkpoint_id": "7a47d4a1-9d5c-4487-9aed-fc3f3fd25d47",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:13.664878",
+    "parent_checkpoint_id": "16284d44-5110-4d68-9efe-699120c62125",
+    "file": "7a47d4a1-9d5c-4487-9aed-fc3f3fd25d47.json"
+  },
+  {
+    "checkpoint_id": "948fa880-4856-43c4-9047-0afba56f0d90",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:13.672055",
+    "parent_checkpoint_id": "7a47d4a1-9d5c-4487-9aed-fc3f3fd25d47",
+    "file": "948fa880-4856-43c4-9047-0afba56f0d90.json"
+  },
+  {
+    "checkpoint_id": "2fdc5a01-c759-4292-9b1b-e6ab298370f5",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:13.679743",
+    "parent_checkpoint_id": "948fa880-4856-43c4-9047-0afba56f0d90",
+    "file": "2fdc5a01-c759-4292-9b1b-e6ab298370f5.json"
+  },
+  {
+    "checkpoint_id": "00492fc9-6b78-474b-ac2c-123f2a16bc63",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:13.686025",
+    "parent_checkpoint_id": "2fdc5a01-c759-4292-9b1b-e6ab298370f5",
+    "file": "00492fc9-6b78-474b-ac2c-123f2a16bc63.json"
+  },
+  {
+    "checkpoint_id": "2a000f66-3df4-49a7-96b2-98c8b5d8ab3f",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:13.692580",
+    "parent_checkpoint_id": "00492fc9-6b78-474b-ac2c-123f2a16bc63",
+    "file": "2a000f66-3df4-49a7-96b2-98c8b5d8ab3f.json"
+  },
+  {
+    "checkpoint_id": "2141863b-dd41-402f-955c-7af5cf54c151",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:13.700804",
+    "parent_checkpoint_id": "2a000f66-3df4-49a7-96b2-98c8b5d8ab3f",
+    "file": "2141863b-dd41-402f-955c-7af5cf54c151.json"
+  },
+  {
+    "checkpoint_id": "1acfd089-e22a-440d-8116-fbbc42befe86",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:13.706430",
+    "parent_checkpoint_id": "2141863b-dd41-402f-955c-7af5cf54c151",
+    "file": "1acfd089-e22a-440d-8116-fbbc42befe86.json"
+  },
+  {
+    "checkpoint_id": "d916f702-16ab-4544-bb24-a068172bb5eb",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:13.712639",
+    "parent_checkpoint_id": "1acfd089-e22a-440d-8116-fbbc42befe86",
+    "file": "d916f702-16ab-4544-bb24-a068172bb5eb.json"
+  },
+  {
+    "checkpoint_id": "b4ed8a71-9241-462e-a55f-b231226ada00",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:13.719873",
+    "parent_checkpoint_id": "d916f702-16ab-4544-bb24-a068172bb5eb",
+    "file": "b4ed8a71-9241-462e-a55f-b231226ada00.json"
+  },
+  {
+    "checkpoint_id": "a48ceea6-7057-498d-aeec-21b032f8d3f5",
+    "node_name": "finalizer",
+    "timestamp": "2026-03-03T16:49:13.726076",
+    "parent_checkpoint_id": "b4ed8a71-9241-462e-a55f-b231226ada00",
+    "file": "a48ceea6-7057-498d-aeec-21b032f8d3f5.json"
+  },
+  {
+    "checkpoint_id": "5e0f6597-7472-4d89-8a02-161038acc5b5",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:49:13.931984",
+    "parent_checkpoint_id": null,
+    "file": "5e0f6597-7472-4d89-8a02-161038acc5b5.json"
+  },
+  {
+    "checkpoint_id": "da3ee1cf-c264-41c0-920a-41c568b150f9",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:13.938611",
+    "parent_checkpoint_id": "5e0f6597-7472-4d89-8a02-161038acc5b5",
+    "file": "da3ee1cf-c264-41c0-920a-41c568b150f9.json"
+  },
+  {
+    "checkpoint_id": "c5fdd407-2c32-4a0e-9951-e9b7cdb4c679",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:13.944628",
+    "parent_checkpoint_id": "da3ee1cf-c264-41c0-920a-41c568b150f9",
+    "file": "c5fdd407-2c32-4a0e-9951-e9b7cdb4c679.json"
+  },
+  {
+    "checkpoint_id": "3d64b39d-569a-40f5-9917-5e4873786be2",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:13.949700",
+    "parent_checkpoint_id": "c5fdd407-2c32-4a0e-9951-e9b7cdb4c679",
+    "file": "3d64b39d-569a-40f5-9917-5e4873786be2.json"
+  },
+  {
+    "checkpoint_id": "a3ff4086-c2b3-4018-9a6c-b8624cafd396",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:13.957038",
+    "parent_checkpoint_id": "3d64b39d-569a-40f5-9917-5e4873786be2",
+    "file": "a3ff4086-c2b3-4018-9a6c-b8624cafd396.json"
+  },
+  {
+    "checkpoint_id": "a612b68e-d83b-4ebf-8127-aa06ba07c489",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:13.963235",
+    "parent_checkpoint_id": "a3ff4086-c2b3-4018-9a6c-b8624cafd396",
+    "file": "a612b68e-d83b-4ebf-8127-aa06ba07c489.json"
+  },
+  {
+    "checkpoint_id": "64bf8108-8c89-483d-a774-f84ae19e9452",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:13.969912",
+    "parent_checkpoint_id": "a612b68e-d83b-4ebf-8127-aa06ba07c489",
+    "file": "64bf8108-8c89-483d-a774-f84ae19e9452.json"
+  },
+  {
+    "checkpoint_id": "7a722b2d-09ee-461a-bb6d-b2322ac4633d",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:13.975559",
+    "parent_checkpoint_id": "64bf8108-8c89-483d-a774-f84ae19e9452",
+    "file": "7a722b2d-09ee-461a-bb6d-b2322ac4633d.json"
+  },
+  {
+    "checkpoint_id": "5d4192b1-3ab3-4b13-912f-6986cdb62a9b",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:13.981997",
+    "parent_checkpoint_id": "7a722b2d-09ee-461a-bb6d-b2322ac4633d",
+    "file": "5d4192b1-3ab3-4b13-912f-6986cdb62a9b.json"
+  },
+  {
+    "checkpoint_id": "842ab1f8-bc25-47fa-ba33-e646d73c5082",
+    "node_name": "planner",
+    "timestamp": "2026-03-03T16:49:48.657341",
+    "parent_checkpoint_id": null,
+    "file": "842ab1f8-bc25-47fa-ba33-e646d73c5082.json"
+  },
+  {
+    "checkpoint_id": "590cacf0-cefb-4b54-b954-f0f74a5e6b17",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:48.665005",
+    "parent_checkpoint_id": "842ab1f8-bc25-47fa-ba33-e646d73c5082",
+    "file": "590cacf0-cefb-4b54-b954-f0f74a5e6b17.json"
+  },
+  {
+    "checkpoint_id": "2cd9116d-4bc6-4af4-9052-7e2df23c9724",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:48.671268",
+    "parent_checkpoint_id": "590cacf0-cefb-4b54-b954-f0f74a5e6b17",
+    "file": "2cd9116d-4bc6-4af4-9052-7e2df23c9724.json"
+  },
+  {
+    "checkpoint_id": "1c5b31e8-0672-496c-9ad4-d35dad595e8a",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:48.678521",
+    "parent_checkpoint_id": "2cd9116d-4bc6-4af4-9052-7e2df23c9724",
+    "file": "1c5b31e8-0672-496c-9ad4-d35dad595e8a.json"
+  },
+  {
+    "checkpoint_id": "13f1ec2f-3e4c-4ad0-acbe-2748e1c1f850",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:48.684705",
+    "parent_checkpoint_id": "1c5b31e8-0672-496c-9ad4-d35dad595e8a",
+    "file": "13f1ec2f-3e4c-4ad0-acbe-2748e1c1f850.json"
+  },
+  {
+    "checkpoint_id": "5bf7050f-21cd-456e-a1f9-717ea7f76f26",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:48.690991",
+    "parent_checkpoint_id": "13f1ec2f-3e4c-4ad0-acbe-2748e1c1f850",
+    "file": "5bf7050f-21cd-456e-a1f9-717ea7f76f26.json"
+  },
+  {
+    "checkpoint_id": "5b8033ba-e394-4bf9-8c47-b86f26cdbc5e",
+    "node_name": "verifier",
+    "timestamp": "2026-03-03T16:49:48.698317",
+    "parent_checkpoint_id": "5bf7050f-21cd-456e-a1f9-717ea7f76f26",
+    "file": "5b8033ba-e394-4bf9-8c47-b86f26cdbc5e.json"
+  },
+  {
+    "checkpoint_id": "62d4910a-c276-4983-bfaf-798a72951c88",
+    "node_name": "diagnoser",
+    "timestamp": "2026-03-03T16:49:48.704638",
+    "parent_checkpoint_id": "5b8033ba-e394-4bf9-8c47-b86f26cdbc5e",
+    "file": "62d4910a-c276-4983-bfaf-798a72951c88.json"
+  },
+  {
+    "checkpoint_id": "aff1897d-b41f-4bf1-b7fc-4a28830cb8f3",
+    "node_name": "recovery",
+    "timestamp": "2026-03-03T16:49:48.711832",
+    "parent_checkpoint_id": "62d4910a-c276-4983-bfaf-798a72951c88",
+    "file": "aff1897d-b41f-4bf1-b7fc-4a28830cb8f3.json"
+  },
+  {
+    "checkpoint_id": "29b3b56d-2d95-46d6-93c8-83eaeba0832b",
+    "node_name": "executor",
+    "timestamp": "2026-03-03T16:49:48.718473",
+    "parent_checkpoint_id": "aff1897d-b41f-4bf1-b7fc-4a28830cb8f3",
+    "file": "29b3b56d-2d95-46d6-93c8-83eaeba0832b.json"
+  },
+  {
+    "checkpoint_id": "c7c56fe6-35cb-48fc-839f-1217e230b970",
+    "node_name": "finalizer",
+    "timestamp": "2026-03-03T16:49:48.730102",
+    "parent_checkpoint_id": "29b3b56d-2d95-46d6-93c8-83eaeba0832b",
+    "file": "c7c56fe6-35cb-48fc-839f-1217e230b970.json"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "task_id": "demo1_normal",
+  "checkpoint_id": "a65fe0ec-0b6b-4b2e-999c-db243b775637",
+  "node_name": "verifier",
+  "timestamp": "2026-03-03T16:46:27.885754",
+  "full_state": {
+    "task_id": "demo1_normal",
+    "goal": "Read the file README.md and summarize its content",
+    "plan": [
+      {
+        "id": "b8725d8b",
+        "objective": "Analyze the task and identify required file operations",
+        "expected_output": "List of file operations",
+        "dependencies": [],
+        "status": "done",
+        "result": "Task completed successfully.",
+        "error": null
+      },
+      {
+        "id": "ca2b042e",
+        "objective": "Execute the identified file operations",
+        "expected_output": "Operation results",
+        "dependencies": [
+          "b8725d8b"
+        ],
+        "status": "running",
+        "result": null,
+        "error": null
+      },
+      {
+        "id": "0fd61d60",
+        "objective": "Verify the operations completed successfully",
+        "expected_output": "Verification result",
+        "dependencies": [
+          "ca2b042e"
+        ],
+        "status": "pending",
+        "result": null,
+        "error": null
+      }
+    ],
+    "current_step": 3,
+    "node_history": [
+      {
+        "node": "planner",
+        "step": 0,
+        "start_time": "2026-03-03T16:46:27.873835",
+        "end_time": "2026-03-03T16:46:27.875346",
+        "elapsed_ms": 1,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "executor",
+        "step": 1,
+        "start_time": "2026-03-03T16:46:27.879500",
+        "end_time": "2026-03-03T16:46:27.879500",
+        "elapsed_ms": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "node": "verifier",
+        "step": 2,
+        "start_time": "2026-03-03T16:46:27.885754",
+        "end_time": "2026-03-03T16:46:27.885754",
+        "elapsed_ms": 0,
+        "success": false,
+        "error": "No result to verify for subtask ca2b042e"
+      }
+    ],
+    "tool_history": [],
+    "artifacts": {},
+    "errors": [],
+    "retry_count": 0,
+    "status": "running",
+    "last_progress_at": "2026-03-03T16:46:27.885754",
+    "human_review_required": false,
+    "metadata": {},
+    "deep_thinking_enabled": false,
+    "current_subtask_id": "ca2b042e"
+  },
+  "parent_checkpoint_id": "0980210d-fe74-4a56-8883-2baae667d7e2"
+}

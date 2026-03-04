@@ -1,0 +1,13 @@
+{"_type": "metadata", "key": "cli:c1", "created_at": "2026-03-04T21:27:06.941764", "updated_at": "2026-03-04T21:43:30.958326", "metadata": {}, "last_consolidated": 0}
+{"role": "user", "content": "just answer directly", "timestamp": "2026-03-04T21:27:06.943297"}
+{"role": "assistant", "content": "Direct answer without tools.", "timestamp": "2026-03-04T21:27:06.943297"}
+{"role": "user", "content": "open tool flow", "timestamp": "2026-03-04T21:27:06.952340"}
+{"role": "assistant", "content": "Need tool support.", "tool_calls": [{"id": "tc1", "type": "function", "function": {"name": "exec", "arguments": "{\"command\": \"echo hi\"}"}}], "timestamp": "2026-03-04T21:27:06.952340"}
+{"role": "tool", "tool_call_id": "tc1", "name": "exec", "content": "Application launch command executed.\n\n[Observation]\ntool: exec\nstatus: success\nnote: application launch acknowledged", "timestamp": "2026-03-04T21:27:06.952340"}
+{"role": "assistant", "content": "Done after observation.", "timestamp": "2026-03-04T21:27:06.952340"}
+{"role": "user", "content": "just answer directly", "timestamp": "2026-03-04T21:43:30.947489"}
+{"role": "assistant", "content": "Direct answer without tools.", "timestamp": "2026-03-04T21:43:30.947489"}
+{"role": "user", "content": "open tool flow", "timestamp": "2026-03-04T21:43:30.958326"}
+{"role": "assistant", "content": "Need tool support.", "tool_calls": [{"id": "tc1", "type": "function", "function": {"name": "exec", "arguments": "{\"command\": \"echo hi\"}"}}], "timestamp": "2026-03-04T21:43:30.958326"}
+{"role": "tool", "tool_call_id": "tc1", "name": "exec", "content": "Application launch command executed.\n\n[Observation]\ntool: exec\nstatus: success\nnote: application launch acknowledged", "timestamp": "2026-03-04T21:43:30.958326"}
+{"role": "assistant", "content": "Done after observation.", "timestamp": "2026-03-04T21:43:30.958326"}
