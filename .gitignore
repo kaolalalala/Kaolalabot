@@ -58,7 +58,8 @@ workspace/memory/chroma/
 workspace/artifacts/
 workspace/system/task_logs.jsonl
 
-# 配置文件
+# 配置文件（含敏感信息）
+config.json
 .env
 .env.*
 .env.local

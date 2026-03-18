@@ -346,7 +346,7 @@ class Config(BaseSettings):
     @property
     def workspace_path(self) -> Path:
         """Get expanded workspace path."""
-        local_workspace = Path("D:/ai/kaolalabot/workspace")
+        local_workspace = Path(__file__).resolve().parent.parent.parent / "workspace"
         if local_workspace.exists():
             return local_workspace
         return Path(self.agents.defaults.workspace).expanduser()

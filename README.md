@@ -139,7 +139,7 @@ kaolalabot onboard
 
 ### 2. 配置 API 密钥
 
-编辑 `D:\ai\kaolalabot\config.json` 并添加您的 LLM API 密钥：
+编辑 `config.json` 并添加您的 LLM API 密钥：
 ```json
 {
   "providers": {
@@ -213,8 +213,8 @@ Agent 现在支持以下工具：
 
 ## 飞书配置
 
-飞书记忆已预配置：
-- App ID: `cli_a92f8dba86a3dcca`
+飞书需要自行配置：
+- App ID: `<YOUR_FEISHU_APP_ID>`
 - App Secret: `<YOUR_FEISHU_APP_SECRET>`
 
 ### 飞书设置步骤

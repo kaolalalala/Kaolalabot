@@ -2,7 +2,8 @@
 
 import asyncio
 import sys
-sys.path.insert(0, 'D:/ai/kaolalabot')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 async def test_memory():
     print("Testing Memory Module...")
@@ -10,7 +11,7 @@ async def test_memory():
     from pathlib import Path
     from kaolalabot.memory.manager import MemoryManager
     
-    workspace = Path("D:/ai/kaolalabot/workspace")
+    workspace = Path(__file__).resolve().parent.parent / "workspace"
     manager = MemoryManager(workspace)
     
     await manager.add("用户说: 你好", "working", session_id="test")

@@ -23,12 +23,12 @@ class Settings(BaseSettings):
     debug: bool = False
     
     # Workspace settings
-    workspace_path: Path = Field(default=Path("D:/ai/kaolalabot/workspace"))
+    workspace_path: Path = Field(default=Path(__file__).resolve().parent.parent / "workspace")
     
     # Memory settings
     memory_working_capacity: int = 20
     memory_episodic_retention_days: int = 30
-    memory_semantic_persist_dir: str = "D:/ai/kaolalabot/workspace/memory/chroma"
+    memory_semantic_persist_dir: str = str(Path(__file__).resolve().parent.parent / "workspace" / "memory" / "chroma")
     
     # CoT settings
     cot_max_iterations: int = 10
@@ -47,7 +47,7 @@ class Settings(BaseSettings):
         if self.workspace_path.exists():
             return self.workspace_path
         
-        local_workspace = Path("D:/ai/kaolalabot/workspace")
+        local_workspace = Path(__file__).resolve().parent.parent / "workspace"
         if local_workspace.exists():
             return local_workspace
         

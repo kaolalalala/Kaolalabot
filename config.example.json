@@ -1,7 +1,7 @@
 {
   "agents": {
     "defaults": {
-      "workspace": "D:/ai/kaolalabot/workspace",
+      "workspace": "./workspace",
       "model": "deepseek-chat",
       "provider": "deepseek",
       "maxTokens": 8192,
@@ -16,8 +16,8 @@
     "sendToolHints": false,
     "feishu": {
       "enabled": true,
-      "appId": "cli_a92f8dba86a3dcca",
-      "appSecret": "grF4DqR3FwNbZwUU8hSYxb1X08bSD0pr",
+      "appId": "",
+      "appSecret": "",
       "encryptKey": "",
       "verificationToken": "",
       "allowFrom": [],
@@ -72,7 +72,7 @@
       "extraHeaders": null
     },
     "deepseek": {
-      "apiKey": "sk-1ef38087ee4c45b38dfb1066fe97261d",
+      "apiKey": "",
       "apiBase": null,
       "extraHeaders": null
     },

@@ -3,9 +3,8 @@ from pathlib import Path
 
 # Check possible config paths
 paths = [
-    Path("D:/ai/kaolalabot/config.json"),
+    Path(__file__).resolve().parent.parent / "config.json",
     Path.home() / ".kaolalabot" / "config.json",
-    Path("C:/Users/宁塞冬/.kaolalabot/config.json"),
 ]
 
 for p in paths:

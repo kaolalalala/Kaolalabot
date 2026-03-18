@@ -8,7 +8,7 @@ from kaolalabot.config.schema import Config
 
 def get_config_path() -> Path:
     """Get the default configuration file path."""
-    local_path = Path("D:/ai/kaolalabot/config.json")
+    local_path = Path(__file__).resolve().parent.parent.parent / "config.json"
     if local_path.exists():
         return local_path
     return Path.home() / ".kaolalabot" / "config.json"

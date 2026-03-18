@@ -1,3 +1,3 @@
 @echo off
-cd /d D:\ai\kaolalabot
+cd /d %~dp0
 python -m kaolalabot.server

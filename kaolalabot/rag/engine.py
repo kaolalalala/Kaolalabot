@@ -173,7 +173,7 @@ class RAGEngine:
 
     async def _load_knowledge_base(self) -> None:
         """Load knowledge base from workspace."""
-        workspace = Path("D:/ai/kaolalabot/workspace")
+        workspace = Path(__file__).resolve().parent.parent.parent / "workspace"
         knowledge_dir = workspace / "knowledge"
         
         if not knowledge_dir.exists():

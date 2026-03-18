@@ -17,12 +17,12 @@ def get_data_path() -> Path:
 
 
 def get_workspace_path(workspace: str | None = None) -> Path:
-    """Resolve and ensure workspace path. Defaults to D:/ai/kaolalabot/workspace."""
+    """Resolve and ensure workspace path."""
     if workspace:
         return ensure_dir(Path(workspace).expanduser())
-    
+
     # 优先使用本地项目workspace
-    local_workspace = Path("D:/ai/kaolalabot/workspace")
+    local_workspace = Path(__file__).resolve().parent.parent.parent / "workspace"
     if local_workspace.exists():
         return ensure_dir(local_workspace)
     

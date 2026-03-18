@@ -24,7 +24,7 @@ provider = create_fallback_provider(cfg)
 agent = AgentLoop(
     bus=bus,
     provider=provider,
-    workspace=Path('D:/ai/kaolalabot/workspace'),
+    workspace=Path(__file__).resolve().parent,
     model=cfg.agents.defaults.model,
     temperature=cfg.agents.defaults.temperature,
     max_tokens=cfg.agents.defaults.max_tokens,
@@ -32,7 +32,7 @@ agent = AgentLoop(
     memory_window=cfg.agents.defaults.memory_window,
     reasoning_effort=cfg.agents.defaults.reasoning_effort,
     channels_config=cfg.channels,
-    tool_registry=create_default_tools(workspace=Path('D:/ai/kaolalabot/workspace'), config=cfg.tools),
+    tool_registry=create_default_tools(workspace=Path(__file__).resolve().parent, config=cfg.tools),
     tools_config=cfg.tools,
     rate_limit_config=cfg.rate_limit,
 )
@@ -56,4 +56,4 @@ lines = [
     'baseline.help_len=%d' % len(resp.content or ''),
 ]
 print('\n'.join(lines))
-Path('D:/ai/kaolalabot/workspace/perf_baseline.txt').write_text('\n'.join(lines), encoding='utf-8')
+(Path(__file__).resolve().parent / 'perf_baseline.txt').write_text('\n'.join(lines), encoding='utf-8')
